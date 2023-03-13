@@ -8,7 +8,7 @@
         <meta content="" name="description" />
 
         <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon" />
+        <link href="hero-removebg-preview.png" rel="icon" />
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -54,6 +54,7 @@
 
         <!-- Navbar Start -->
         <div
+            style="background-color: white"
             class="container-fluid fixed-top px-0 mb wow fadeIn shadow-sm"
             data-wow-delay="0.1s"
         >
@@ -121,7 +122,13 @@
         <!-- Carousel Start -->
         <div
             id="home"
-            style="min-height: 40rem; max-width: 100vw; overflow: hidden"
+            style="
+                min-height: 40rem;
+                max-width: 100vw;
+                overflow: hidden;
+                background: url(/img/bg.jpg);
+                background-size: cover;
+            "
             class="container d-flex align-items-center justify-content-center mt-5"
         >
             <div class="row d-flex justify-content-center align-items-center">
@@ -487,7 +494,7 @@
                 </div>
                 <div class="row g-5 justify-content-center">
                     <div
-                        class="col-lg-5 col-md-12 wow fadeInUp"
+                        class="col-lg-6 col-md-12 wow fadeInUp"
                         data-wow-delay="0.1s"
                     >
                         <div
@@ -519,9 +526,26 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Google Map Start -->
+                    <div
+                        class="container-xxl px-0 wow fadeIn col-lg-6"
+                        data-wow-delay="0.1s"
+                        style="margin-bottom: -6px"
+                    >
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28603.16717211025!2d8.677650776721764!3d33.35692453792865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1256f08998e60285%3A0x744af670d308ec33!2sEl%20Faouar!5e0!3m2!1sfr!2stn!4v1678711830543!5m2!1sfr!2stn"
+                            class="w-100"
+                            style="height: 450px"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                    <!-- Google Map End -->
                 </div>
             </div>
         </div>
+
         <!-- Contact End -->
 
         <!-- Footer Start -->
