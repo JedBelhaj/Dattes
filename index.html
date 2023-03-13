@@ -99,12 +99,15 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0">
-                        <a href="index.html" class="nav-item nav-link active"
+                        <a href="#home" class="nav-item nav-link active"
                             >Acceuil</a
                         >
-
+                        <a href="#about" class="nav-item nav-link">à Propos</a>
                         <a href="#produits" class="nav-item nav-link"
                             >Produits</a
+                        >
+                        <a href="#test" class="nav-item nav-link"
+                            >Testimonial</a
                         >
                         <a href="contact.html" class="nav-item nav-link"
                             >Contactez-Nous</a
@@ -117,11 +120,13 @@
 
         <!-- Carousel Start -->
         <div
-            class="container vh-100 d-flex align-items-center justify-content-center mt-5"
+            id="home"
+            style="min-height: 40rem; max-width: 100vw; overflow: hidden"
+            class="container-xxl d-flex align-items-center justify-content-center mt-5"
         >
             <div class="row g-5">
                 <div
-                    class="col-12 d-flex justify-content-center align-items-center"
+                    class="col-lg-6 d-flex justify-content-center align-items-center"
                 >
                     <div>
                         <h1
@@ -133,30 +138,107 @@
                         <div class="d-flex justify-content-center">
                             <a
                                 href="#produits"
-                                class="btn btn-primary rounded-pill py-sm-3 px-sm-5"
+                                class="btn btn-primary shadow-lg rounded-pill py-sm-3 px-sm-5"
                                 >Nos Produits</a
                             >
                             <a
                                 href=""
-                                class="btn btn-primary rounded-pill py-sm-3 px-sm-5 ms-3"
+                                class="btn btn-primary shadow-lg rounded-pill py-sm-3 px-sm-5 ms-3"
                                 >Contacter Nous</a
                             >
                         </div>
                     </div>
                 </div>
-                <div
-                    class="col d-flex align-items-center justify-content-center"
-                >
-                    <img
-                        class="image-fluid"
-                        src="./hero-removebg-preview.png"
-                        alt="Image"
-                    />
-                </div>
+                <img
+                    class="image-fluid mx-auto"
+                    style="max-width: 30rem"
+                    src="./hero-removebg-preview.png"
+                    alt="Image"
+                />
             </div>
         </div>
 
         <!-- Carousel End -->
+        <!-- Firm Visit Start -->
+        <div class="container-fluid bg-primary bg-icon mt-5 py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
+                        <h1 class="display-5 text-white mb-3">
+                            Consultez notre page Facebook pour en savoir plus
+                        </h1>
+                        <p class="text-white mb-0">
+                            Rejoignez notre communauté de passionnés de dattes
+                            pour partager des recettes, des astuces culinaires
+                            et découvrir notre savoir-faire. Consultez
+                            régulièrement notre page Facebook pour découvrir nos
+                            promotions exclusives et ne rien manquer de nos
+                            actualités.
+                        </p>
+                    </div>
+                    <div
+                        class="col-md-5 text-md-end wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <a
+                            class="btn btn-lg btn-secondary rounded-pill py-3 px-5"
+                            href="https://www.facebook.com/profile.php?id=100076550767178"
+                            target="_blank"
+                            >Suivez-nous sur Facebook</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Firm Visit End -->
+        <!-- About Start -->
+        <div class="container-xxl py-5" id="about">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div
+                            class="about-img position-relative overflow-hidden p-5 pe-0"
+                        >
+                            <img
+                                class="img-fluid w-100"
+                                src="img/about us.png"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="display-5 mb-4">
+                            Laouina Dattes : Les Meilleures Dattes de Kebili,
+                            Tunisie
+                        </h1>
+                        <p class="mb-4">
+                            Laouina Dattes cultive et sélectionne les dattes les
+                            plus savoureuses et naturelles de la région de
+                            Kebili, Tunisie, pour offrir à votre table une
+                            expérience gustative exceptionnelle.
+                        </p>
+
+                        <p>
+                            <i class="fa fa-check text-primary me-3"></i>
+                            Dattes savoureuses et naturelles de Kebili, Tunisie
+                        </p>
+                        <p>
+                            <i class="fa fa-check text-primary me-3"></i>
+                            Qualité supérieure et engagement envers le naturel
+                        </p>
+                        <p>
+                            <i class="fa fa-check text-primary me-3"></i>
+                            Expérience gustative exceptionnelle garantie
+                        </p>
+                        <a
+                            class="btn btn-primary rounded-pill py-3 px-5 mt-3"
+                            href=""
+                            >Read More</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
 
         <!-- Product Start -->
         <div class="container-xxl py-5" id="produits">
@@ -268,6 +350,136 @@
             </div>
         </div>
         <!-- Product End -->
+
+        <!-- Testimonial Start -->
+        <div id="test" class="container-fluid bg-light bg-icon py-6 mb-5">
+            <div class="container">
+                <div
+                    class="section-header text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <h1 class="display-5 mb-3">
+                        Ce que nos clients disent de nos dattes
+                    </h1>
+                    <p>
+                        Chez Laouina Dattes, nous sommes fiers de fournir des
+                        dattes exceptionnelles et naturelles de Kebili, Tunisie.
+                        Découvrez ce que nos clients disent de leur expérience
+                        gustative avec nos dattes de qualité supérieure.
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="testimonial-item position-relative bg-white p-5 mt-4"
+                    >
+                        <i
+                            class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"
+                        ></i>
+                        <p class="mb-4">
+                            "Les dattes de Laouina sont les meilleures que j'ai
+                            jamais goûtées ! Elles sont parfaitement sucrées et
+                            juteuses, sans aucun additif ni conservateur. Merci
+                            pour cette expérience gustative exceptionnelle !"
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img
+                                class="flex-shrink-0 rounded-circle"
+                                src="img/testimonial-1.jpg"
+                                alt=""
+                            />
+                            <div class="ms-3">
+                                <h5 class="mb-1">Fatima</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="testimonial-item position-relative bg-white p-5 mt-4"
+                    >
+                        <i
+                            class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"
+                        ></i>
+                        <p class="mb-4">
+                            "Je suis un passionné de dattes et j'ai été ravi de
+                            découvrir Laouina Dattes. Leur engagement envers le
+                            naturel et la qualité est incroyablement rare de nos
+                            jours. Je recommande fortement leurs dattes à tous
+                            les amateurs de fruits naturels."
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img
+                                class="flex-shrink-0 rounded-circle"
+                                src="img/testimonial-2.jpg"
+                                alt=""
+                            />
+                            <div class="ms-3">
+                                <h5 class="mb-1">Ahmed</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="testimonial-item position-relative bg-white p-5 mt-4"
+                    >
+                        <i
+                            class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"
+                        ></i>
+                        <p class="mb-4">
+                            "Je cherchais des dattes de qualité supérieure pour
+                            mon entreprise de pâtisserie, et j'ai trouvé
+                            exactement ce dont j'avais besoin chez Laouina
+                            Dattes. Leur goût est remarquable et leurs dattes
+                            sont parfaites pour mes créations sucrées."
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img
+                                class="flex-shrink-0 rounded-circle"
+                                src="img/testimonial-3.jpg"
+                                alt=""
+                            />
+                            <div class="ms-3">
+                                <h5 class="mb-1">Mouhamed</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="testimonial-item position-relative bg-white p-5 mt-4"
+                    >
+                        <i
+                            class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"
+                        ></i>
+                        <p class="mb-4">
+                            "Laouina Dattes est la référence en matière de
+                            dattes naturelles et savoureuses. Je suis fan de
+                            leur sélection de dattes Sukkari, qui sont à tomber
+                            par terre. Je recommande vivement cette entreprise à
+                            tous les amoureux de fruits de qualité."
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img
+                                class="flex-shrink-0 rounded-circle"
+                                src="img/testimonial-4.jpg"
+                                alt=""
+                            />
+                            <div class="ms-3">
+                                <h5 class="mb-1">Sonia</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="col-12 text-center">
+                <a
+                    class="btn btn-primary rounded-pill py-3 px-5"
+                    href="contact.html"
+                    >Contactez-Nous</a
+                >
+            </div>
+        </div>
+        <!-- Testimonial End -->
 
         <!-- Footer Start -->
         <div
